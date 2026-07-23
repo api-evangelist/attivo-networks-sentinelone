@@ -1,0 +1,25 @@
+# Attivo Networks (SentinelOne)
+
+> Attivo Networks was a pioneer in identity threat detection and response (ITDR), deception, and Active Directory attack protection. It was acquired by SentinelOne in 2022 and its technology is now delivered as SentinelOne Singularity Identity within the AI-powered Singularity security platform. This API Evangelist profile tracks the security, trust, and disclosure surface for the combined entity; there is no standalone public Attivo API — programmatic access is provided through the SentinelOne management console REST API.
+
+## Product
+- Singularity Identity: https://www.sentinelone.com/platform/identity/
+- Attivo Networks (legacy site): https://www.attivonetworks.com/
+
+## Security & Trust
+- security.txt: https://www.attivonetworks.com/.well-known/security.txt
+- Bug bounty program (HackerOne private): https://www.sentinelone.com/bug-bounty/
+- Trust Center (SafeBase by Drata; SOC 2 Type 2, ISO 27001/27017/27018, FedRAMP): https://trust.sentinelone.com/
+
+## Company
+- Blog: https://www.sentinelone.com/blog/
+- Support: https://www.sentinelone.com/support/
+- Community: https://community.sentinelone.com/
+- Privacy Policy: https://www.sentinelone.com/legal/privacy-policy/
+- Terms of Service: https://www.sentinelone.com/legal/terms-of-service/
+
+## Repo artifacts
+- well-known/attivo-networks-sentinelone-well-known.yml
+- security/attivo-networks-sentinelone-vulnerability-disclosure.yml
+- security/attivo-networks-sentinelone-trust-center.yml
+- security/attivo-networks-sentinelone-domain-security.yml

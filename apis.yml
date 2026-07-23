@@ -1,9 +1,30 @@
 aid: attivo-networks-sentinelone
 name: Attivo Networks (SentinelOne)
-description: 'Attivo Networks (SentinelOne) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Attivo Networks was a pioneer in identity threat detection and response (ITDR),
+  cyber deception, and Active Directory attack protection. SentinelOne acquired
+  Attivo Networks in 2022 and folded its technology into SentinelOne Singularity
+  Identity, part of the AI-powered Singularity security platform spanning endpoint
+  (EDR/XDR), identity, and cloud security. There is no standalone public Attivo
+  API; programmatic access is delivered through the SentinelOne management console
+  REST API (v2.1), which is scoped to a customer's console URL rather than a public
+  developer portal. This API Evangelist profile tracks the combined entity's public
+  security, trust, disclosure, and compliance surface: a published RFC 9116
+  security.txt, a HackerOne-hosted bug bounty, and a SafeBase trust center carrying
+  SOC 2 Type 2, ISO 27001/27017/27018, FedRAMP, and TX-RAMP certifications.
 url: https://raw.githubusercontent.com/api-evangelist/attivo-networks-sentinelone/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.sentinelone.com/wp-content/uploads/2020/07/sentinelone-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Cybersecurity
+- Identity
+- ITDR
+- Endpoint Security
+- Deception
+- XDR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.attivonetworks.com/
+- type: Product
+  url: https://www.sentinelone.com/platform/identity/
+- type: Blog
+  url: https://www.sentinelone.com/blog/
+- type: Support
+  url: https://www.sentinelone.com/support/
+- type: Community
+  url: https://community.sentinelone.com/
+- type: PrivacyPolicy
+  url: https://www.sentinelone.com/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.sentinelone.com/legal/terms-of-service/
+- type: SecurityTxt
+  url: well-known/attivo-networks-sentinelone-security.txt
+- type: WellKnown
+  url: well-known/attivo-networks-sentinelone-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/attivo-networks-sentinelone-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.sentinelone.com/bug-bounty/
+- type: TrustCenter
+  url: https://trust.sentinelone.com/
+- type: Compliance
+  url: https://trust.sentinelone.com/
+- type: DomainSecurity
+  url: security/attivo-networks-sentinelone-domain-security.yml
+- type: LLMsTxt
+  url: llms/attivo-networks-sentinelone-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

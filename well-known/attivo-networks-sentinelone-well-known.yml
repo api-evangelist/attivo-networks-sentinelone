@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on Attivo Networks (SentinelOne) hosts
+host: https://www.attivonetworks.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: attivo-networks-sentinelone-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 410
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 410
+- path: /.well-known/api-catalog             # RFC 9727
+  status: 410
+- path: /.well-known/ai-plugin.json
+  status: 410
+notes: >-
+  Attivo Networks was acquired by SentinelOne (2022); its identity/deception
+  technology is now SentinelOne Singularity Identity. The published security.txt
+  points all contacts at SentinelOne (security@sentinelone.com).
