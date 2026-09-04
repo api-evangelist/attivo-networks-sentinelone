@@ -35,6 +35,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.attivonetworks.com/', status: 301, note: 'declared website redirects to https://www.sentinelone.com/platform/identity/ — a different registrable domain (attivonetworks.com -> sentinelone.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://www.sentinelone.com/wp-content/uploads/2020/07/sentinelone-logo.png
 x-type: company
 x-source: vc-portfolio
